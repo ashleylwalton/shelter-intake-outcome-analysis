@@ -10,6 +10,23 @@ This project explores intake and outcome data from the Austin Animal Center to u
 - **Seasonal Trends**: Cat intakes showed clear seasonal spikes during spring and summer, aligning with known kitten‑season patterns and influencing overall shelter capacity.
 - **Operational Value**: The findings highlight opportunities to reduce length of stay, anticipate seasonal surges, and tailor interventions for high‑risk intake types to improve overall shelter outcomes.
 
+### Feature Importance
+![Feature Importance](images/feature_importance.png)
+
+**Feature Importance:** The Random Forest model identified age at intake, length of stay, intake type, and species as the strongest predictors of positive outcomes. These features consistently shaped the model’s decision‑making and aligned with patterns observed during EDA.
+
+### Confusion Matrix
+
+![Confusion Matrix](images/confusion_matrix.png)
+
+**Confusion Matrix:** The model performs well at identifying positive outcomes while maintaining reasonable sensitivity to negative outcomes. This balance is important for shelters aiming to flag at‑risk animals early.
+
+### Seasonality by Species
+
+![Seasonality by Species](images/seasonality_by_species.png)
+
+**Seasonality by Species:** Cat intakes show strong seasonal spikes during spring and summer, reflecting known kitten‑season patterns. These trends help explain fluctuations in shelter population and resource needs throughout the year.
+
 ## Project Struture
 shelter-intake-outcome-analysis
 - data    #Original Dataset
