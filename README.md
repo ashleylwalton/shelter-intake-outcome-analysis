@@ -1,9 +1,16 @@
 # Shelter Intake & Outcome Analysis
 ### Predicting Positive Outcomes at the Austin Animal Center
 
-This project analyzes animal intake data from the Austin Animal Center to understand the factors that influence whether an animal experiences a positive outcome (adoption, return to owner, transfer) or a negative outcome. Using a combination of data cleaning, exploratory analysis, and machine learning, the project identifies key predictors of outcomes and provides actionable insights for shelter operations. 
+This project explores intake and outcome data from the Austin Animal Center to understand the factors that shape an animal’s likelihood of a positive outcome. Through structured data cleaning, exploratory analysis, and a machine learning model with interpretable insights, the project uncovers patterns in age, intake type, species, and length of stay that influence adoption and return‑to‑owner rates. The goal is to translate raw shelter data into actionable findings that can support operational planning and improve animal welfare outcomes.
 
-## Product Struture
+### Results at a Glance
+- **Model Performance**: The Random Forest classifier achieved strong predictive performance, accurately distinguishing positive from negative outcomes using structured intake features.
+- **Top Predictors**: Age at intake, length of stay, intake type, and species emerged as the most influential factors driving outcome predictions.
+- **Key Insights**: Younger animals and those with shorter shelter stays were significantly more likely to experience positive outcomes. Intake type also played a major role, with strays showing distinct patterns compared to owner surrenders.
+- **Seasonal Trends**: Cat intakes showed clear seasonal spikes during spring and summer, aligning with known kitten‑season patterns and influencing overall shelter capacity.
+- **Operational Value**: The findings highlight opportunities to reduce length of stay, anticipate seasonal surges, and tailor interventions for high‑risk intake types to improve overall shelter outcomes.
+
+## Project Struture
 shelter-intake-outcome-analysis
 - data    #Original Dataset
 - processed #Cleaned Dataset for Modeling
